@@ -1,12 +1,15 @@
-console.log("Meu Primeiro Programa: trabalhando com variáveis");
+//Console.log("Trabalhando com variáveis");
+console.log("Trabalhando com variáveis");
+// JS é Case sensitive
 
-const idade = 26;
+const idade = 35;
+const nome = "Lucas Norberto";
+let ano = 1986;
 
-console.log(idade);
-console.log(idade+2);
-console.log(idade-2);
-console.log(idade/2);
-console.log(idade*2);
+// Não fazer
+//mes = "Janeiro";
 
-const idadeSomada = idade+2;
-console.log(idadeSomada);
+console.log (idade);
+console.log(nome);
+console.log(ano);
+//console.log(mes);
