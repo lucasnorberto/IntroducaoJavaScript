@@ -8,6 +8,14 @@ const listaDeDestinos = new Array(
     `São Paulo`,
     `Rio de Janeiro`,
     `Curitiba`,
+    `Brasilia`,
+    `Betim`,
+    `Pompeu`,
+    `Cabo Frio`,
+    `Fortaleza`,
+    `Manaus`,
+    `Cuiaba`,
+    `Curitiba`,
 );
 
 listaDeDestinos.push(`Belo Horizonte`); //adicionando um item na lista
@@ -15,3 +23,7 @@ console.log("Destinos possíveis:");
 // console.log(salvador, saoPaulo, rioDeJaneiro);
 
 console.log (listaDeDestinos);
+
+listaDeDestinos.splice(1,1);
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1], listaDeDestinos[0]);
